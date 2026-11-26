@@ -1,4 +1,11 @@
-logs/
-sauvegardes/
+# Ignorer le contenu des logs
+logs/*
+!logs/.gitkeep
+
+# Ignorer le contenu des sauvegardes
+sauvegardes/*
+!sauvegardes/.gitkeep
+
+# Fichiers temporaires Python
 __pycache__/
 *.pyc
